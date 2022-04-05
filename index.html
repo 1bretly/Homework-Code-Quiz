@@ -10,19 +10,23 @@
 </head>
 
 <body>
+    <header class="header">
+        <a href="./highscore.html" id="highscore">View High Scores!</a>
+        <div id="timer">Time:</div>
+    </header>
     <main class="container">
-        <div id="question-container">
+        <div id="question-container" class="hide">
             <div id="question">Question</div>
-            <div id="answer-buttons" class="buttonGrid">
-                <button class="buttons">A</button>
-                <button class="buttons">B</button>
-                <button class="buttons">C</button>
-                <button class="buttons">D</button>
+            <div id="answer-buttons" class="btn-grid">
+                <button id=btnA class="btn">A</button>
+                <button id=btnB class="btn">B</button>
+                <button id=btnC class="btn">C</button>
+                <button id=btnD class="btn">D</button>
             </div>
         </div>
         <div class="controls">
-            <button id="startButton" class="buttons">START</button>
-            <button id="nextButton" class="buttons">NEXT</button>
+            <button id="start-btn" class="start-btn btn">START</button>
+            <button id="next-btn" class="next-btn btn hide">NEXT</button>
         </div>
     </main>
     <script src="./assets/javascript/script.js"></script>

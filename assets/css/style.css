@@ -1,6 +1,25 @@
-* {
+*, *::before, *::after {
     box-sizing: border-box;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#highscore {
+    font-size: 30px;
+    position: absolute;
+    top: 3rem;
+    text-align: right;
+    padding-bottom: 20px;
+    color: whitesmoke;
+    text-shadow: 3px 3px black;
+}
+
+#timer { 
+    font-size: 30px;
+    position: absolute;
+    right: 33%;
+    top: 55px;
+    color: whitesmoke;
+    text-shadow: 3px 3px black;
 }
 
 body {
@@ -14,7 +33,7 @@ body {
     background-image: url(../images/phoenix.jpg);
     background-repeat: no-repeat;
     background-position-x: center;
-    background-position-y: 20%;
+    background-position-y: 30%;
     background-size: cover;
 }
 
@@ -23,18 +42,18 @@ body {
     max-width: 80%;
     background-color: whitesmoke;
     border-radius: 5px;
-    box-shadow: 0 0 10px 2px;
+    box-shadow: 0 0 10px 4px;
     padding: 10px;
 }
 
-.buttonGrid {
+.btn-grid {
     display: grid;
     grid-template-columns: repeat(2, auto);
     gap: 10px;
-    margin: 15px 0;
+    margin: 20px 0;
 }
 
-.buttons {
+.btn {
     border-style: solid;
     border-color: black;
     border-width: 3px;
@@ -43,22 +62,25 @@ body {
     padding: 5px 10px;
     color: black;
     outline: none;
-    font-size:20px;
 }
 
-.buttons:hover {
+.btn:hover {
     border-color: gold;
     color: whitesmoke;
 }
 
 .controls {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 
-.startButton, .nextButton {
+.start-btn, .next-btn {
     font-size: 1.5rem;
     font-weight: bold;
-    padding: 15px;
+    padding: 15px 20px;
+}
+
+.hide {
+    display: none;
 }
