@@ -12,7 +12,9 @@ Enjoy!
 
 
 <!-- Picture of website -->
-![A user clicks through an interactive coding quiz, then enters initials to save the high score before resetting and starting over.](./Assets/04-web-apis-homework-demo.gif)
+![Code Quiz](./assets/images/code-quizz.jpg)
 
 
 <!-- Links to website and GitHub -->
+https://1bretly.github.io/Homework-Code-Quiz/
+https://github.com/1bretly/Homework-Code-Quiz
