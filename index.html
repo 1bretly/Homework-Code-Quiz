@@ -1,32 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Code Quiz</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
-</head>
+  </head>
 
-<body>
-    <div id="timer">Time:</div>
-
+  <body>
+    <div id="instructions">
+      Hello, this is a code quiz application to test your knowledge on
+      javascript. The quiz will start with 120 seconds. For each question you
+      answer incorrectly, 15 seconds will be subtracted from the timer. When the
+      game is over you can submit your score! Good luck!
+    </div>
+    <div id="timer" class="hide">GO!</div>
     <main class="container">
-        <div id="question-container" class="hide">
-            <div id="question">Question</div>
-            <div id="answer-buttons" class="btn-grid">
-                <button id="btn0" class="btn">A</button>
-                <button id="btn1" class="btn">B</button>
-                <button id="btn2" class="btn">C</button>
-                <button id="btn3" class="btn">D</button>
-            </div>
+      <div id="question-container" class="hide">
+        <div id="question">Question</div>
+        <div id="answer-buttons" class="btn-grid">
+          <button id="btn0" class="btn">A</button>
+          <button id="btn1" class="btn">B</button>
+          <button id="btn2" class="btn">C</button>
+          <button id="btn3" class="btn">D</button>
         </div>
-        <div class="controls">
-            <button id="start-btn" class="start-btn btn">START</button>
-        </div>
+      </div>
+      <div class="controls">
+        <button id="start-btn" class="start-btn btn">START</button>
+      </div>
     </main>
     <script src="./assets/javascript/script.js"></script>
-</body>
-
+  </body>
 </html>
