@@ -47,6 +47,7 @@ body {
   position: absolute;
   margin: 650px;
   background-color: whitesmoke;
+  font-weight: bold;
   border-radius: 10px;
   padding: 15px;
   bottom: 0%;
@@ -72,6 +73,7 @@ body {
   border-style: solid;
   border-color: black;
   border-width: 3px;
+  font-size: 20px;
   background-color: firebrick;
   border-radius: 5px;
   padding: 5px 10px;
@@ -104,5 +106,5 @@ body {
 
 #question {
   font-style: italic;
-  font-size: 20px;
+  font-size: 25px;
 }
