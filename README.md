@@ -11,7 +11,7 @@ Enjoy!
 
 ## Preview of deployed application
 
-![Code Quiz]()
+![Code Quiz](./assets/images/code-quiz.gif)
 
 ## Links to GitHub and deployed application
 
